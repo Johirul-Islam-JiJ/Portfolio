@@ -42,15 +42,16 @@ header {
 /* =================== Me =================== */
 
 .me {
-    background: linear-gradient( var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    /* background: linear-gradient( var(--color-primary), transparent); */
+    background-color: rgb(158, 154, 154) ;
+    width: 50rem;
+    height: 40rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(45% - 19rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 8.65rem 1.5rem 1.5rem 1.5rem;
 
 }
 
