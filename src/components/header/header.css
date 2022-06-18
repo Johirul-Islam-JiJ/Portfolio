@@ -44,14 +44,14 @@ header {
 .me {
     /* background: linear-gradient( var(--color-primary), transparent); */
     background-color: rgb(158, 154, 154) ;
-    width: 50rem;
-    height: 40rem;
+    width: 35rem;
+    height: 28rem;
     position: absolute;
     left: calc(45% - 19rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 8.65rem 1.5rem 1.5rem 1.5rem;
+    padding: 4.65rem 0rem 0rem 0rem;
 
 }
 
@@ -60,7 +60,7 @@ header {
 .scroll_down {
     position: absolute;
     right: 3rem;
-    bottom: 4rem;
+    bottom: 10rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
