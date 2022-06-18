@@ -1,0 +1,85 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+
+.about_me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 1.5rem;
+
+
+    background: linear-gradient(45deg,transparent,white,transparent);
+
+    display: grid;
+    place-items: center;
+}
+
+.about_me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(8deg);
+    transition: var(--transition);
+
+}
+
+.about_me-image:hover {
+    transform: rotate(0deg);
+}
+
+about_cards {
+    display: grid;
+    grid-template-columns: repeat(3);
+    gap: 100rem;
+
+}
+
+.about_card {
+    background: rgb(5, 6, 63) ;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 5 rem;
+    text-align: center;
+}
+
+.about_card:hover {
+    background: transparent;
+    border-color: aliceblue;
+    cursor: default;
+    transition: var(--transition);
+
+}
+
+.about_icon {
+    color: aquamarine;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about_card h5 {
+    font-size: 0.95rem;
+}
+
+.about_card small {
+    font-size: 0.7rem;
+    color: aquamarine;
+}
+
+.about_content p {
+    margin: 2rem 0 2.6rem;
+    color: beige;
+}
+
+/* ========== Media Queries (Medium Devices) =============*/
+@media screen and (max-width:1024px) {
+   
+    header {
+     height: 68vh;
+    }
+ }
+
+ /* ========== Media Queries (Small Devices) =============*/
+@media screen and (max-width:600px) {
+}
