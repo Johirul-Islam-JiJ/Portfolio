@@ -3,7 +3,7 @@ import './header.css';
 import CTA from './CTA';
 import ME from '../../assets/smile.png'
 import HeaderSocial from './HeaderSocial';
-
+var textalign ='right'
 const Header = () => {
   return (
     <section>
