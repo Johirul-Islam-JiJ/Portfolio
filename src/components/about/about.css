@@ -11,7 +11,7 @@
     border-radius: 1.5rem;
 
 
-    background: linear-gradient(45deg,transparent,white,transparent);
+    background: linear-gradient(45deg,transparent,rgb(181, 188, 228),transparent);
 
     display: grid;
     place-items: center;
@@ -37,10 +37,10 @@ about_cards {
 }
 
 .about_card {
-    background: rgb(5, 6, 63) ;
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 5 rem;
+    background: linear-gradient(15deg,transparent,rgb(76, 214, 122),transparent);
+    border: 8px solid transparent;
+    border-radius: 3rem;
+    padding: 0.2rem;
     text-align: center;
 }
 
