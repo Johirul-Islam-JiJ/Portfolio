@@ -121,9 +121,9 @@ const experience = () => {
         </div>
 
         
-        <div className='experience_backend'>
+        {/* <div className='experience_backend'>
 
-        </div>
+        </div> */}
 
       </div>
 
