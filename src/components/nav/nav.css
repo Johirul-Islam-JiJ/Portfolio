@@ -32,7 +32,7 @@ nav a:hover {
 
 
 nav a.active {
-    background: var(--color-bg);
+    background: red;
     color: var(--color-white);
     
 }
