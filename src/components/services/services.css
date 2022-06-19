@@ -50,3 +50,24 @@
     font-size: 1rem;
 }
 
+
+/* ========== Media Queries (Medium Devices) =============*/
+@media screen and (max-width:1024px) {
+    .services_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .service {
+        height: auto;
+    }
+    
+ }
+
+ /* ========== Media Queries (Small Devices) =============*/
+@media screen and (max-width:600px) {
+    .services_container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
