@@ -12,7 +12,7 @@
 
 
     background: linear-gradient(45deg,transparent,rgb(181, 188, 228),transparent);
-
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     display: grid;
     place-items: center;
 }
@@ -74,12 +74,40 @@ about_cards {
 
 /* ========== Media Queries (Medium Devices) =============*/
 @media screen and (max-width:1024px) {
-   
-    header {
-     height: 68vh;
+
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
     }
+
+    .about_me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about_content p {
+        margin: 1rem 0 1.5rem;
+
+    }
+
  }
 
  /* ========== Media Queries (Small Devices) =============*/
 @media screen and (max-width:600px) {
+    .about_me {
+
+    width: 65%;
+    margin: 0 auto 3rem;
+    }
+
+    .about_card {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about_content p {
+        margin: 1.5rem 0;
+    }
+
+
 }
