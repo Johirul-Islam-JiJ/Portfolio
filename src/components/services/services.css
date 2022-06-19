@@ -1,0 +1,52 @@
+.services_container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.service {
+    background: linear-gradient(110deg,transparent,rgb(247, 7, 7),transparent);
+    border-radius:50rem 0 0 0;
+    border: 1px solid wheat;
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.service:hover {
+    background: transparent;
+    border-color: brown;
+    cursor: default;
+}
+
+.service_head {
+    background: linear-gradient(170deg, transparent, rgba(5, 5, 5, 0.945),transparent);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgb(247, 7, 7);
+}
+
+.service_head h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.service_list {
+    padding: 2rem;
+}
+
+.service_list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.service_list-icon {
+    color: aliceblue;
+    margin-top: 2px;
+}
+
+.service_list p {
+    font-size: 1rem;
+}
+
