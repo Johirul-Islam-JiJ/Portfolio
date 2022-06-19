@@ -40,7 +40,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white) ;
     line-height: 1.7;
-    background-image: url(../src/assets/images.jfif);
+    background-image: url(../src/assets/black\ bg.jpg);
 }
 
 /*============ General Styles ========== */
@@ -92,7 +92,7 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary-variant);
+    color: white;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -101,13 +101,13 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: black;
     color: var(--color-bg);
-    border-color: transparent;
+    border-color: white;
 }
 
 .btn-primary {
-    background: var(--color-primary-variant);
+    background: red;
     color: var(--color-bg);
 }
 

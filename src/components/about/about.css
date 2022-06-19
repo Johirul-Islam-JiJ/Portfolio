@@ -11,7 +11,7 @@
     border-radius: 1.5rem;
 
 
-    background: linear-gradient(45deg,transparent,rgb(181, 188, 228),transparent);
+    background: linear-gradient(45deg,transparent,rgb(236, 44, 44),transparent);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     display: grid;
     place-items: center;
@@ -20,13 +20,14 @@
 .about_me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(8deg);
+    transform: rotate(0deg);
     transition: var(--transition);
 
 }
 
 .about_me-image:hover {
-    transform: rotate(0deg);
+    
+    transform: scale(1.05);
 }
 
 about_cards {
@@ -37,7 +38,7 @@ about_cards {
 }
 
 .about_card {
-    background: linear-gradient(15deg,transparent,rgb(76, 214, 122),transparent);
+    background: linear-gradient(15deg,transparent,rgb(236, 41, 41),transparent);
     border: 8px solid transparent;
     border-radius: 3rem;
     padding: 0.2rem;
