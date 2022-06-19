@@ -15,33 +15,51 @@ const experience = () => {
           <div className='experience_content'>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>CSS</h4>
-              <small className='text-light'>Experienced</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>CSS</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>Java Script</h4>
-              <small className='text-light'>Intermediate</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>Java Script</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>Bootsrap</h4>
-              <small className='text-light'>Intermediate</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>Bootsrap</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>React.js</h4>
-              <small className='text-light'>Experienced</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>React.js</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>Tainwind</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
 
 
@@ -58,33 +76,43 @@ const experience = () => {
           <div className='experience_content'>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>Node.js</h4>
-              <small className='text-light'>Intermediate</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>Node.js</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>django</h4>
-              <small className='text-light'>Experienced</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>django</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>Laravel</h4>
-              <small className='text-light'>Intermediate</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>Laravel</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>My SQL</h4>
-              <small className='text-light'>Intermediate</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>My SQL</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <RiCheckboxMultipleFill/>
-              <h4>Firebase</h4>
-              <small className='text-light'>Experienced</small>
+              <RiCheckboxMultipleFill className='experience_detals-icon'/>
+              <div>
+                <h4>Firebase</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
 
 
