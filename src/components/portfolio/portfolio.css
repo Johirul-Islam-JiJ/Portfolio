@@ -1,0 +1,61 @@
+.portfolio_container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+}
+
+.portfolio_item > div {
+    background: linear-gradient(15deg,transparent,rgb(241, 26, 11),transparent);
+    padding: 1.1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio_item :hover {
+    background : transparent;
+    border-color: rgb(211, 99, 99);
+    border-width: medium;
+    cursor: default;
+    
+}
+
+.portfolio_item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio_item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio_item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+ /* ========== Media Queries (Medium Devices) =============*/
+ @media screen and (max-width:1024px) {
+
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    
+    }
+
+}
+
+
+/* ========== Media Queries (Small Devices) =============*/
+@media screen and (max-width:600px) {
+
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    
+    }
+
+}
