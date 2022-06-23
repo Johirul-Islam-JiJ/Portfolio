@@ -15,43 +15,42 @@ const testimonials = () => {
         <article className='testimonial'>
           <div className='client_avater'>
             <img src={avater1} alt="Avater one" />
-            <h5 className='client_name'>Afzal Hossain</h5>
-            <small className='client_review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+          </div>
+          <h5 className='client_name'>Afzal Hossain</h5>
+          <small className='client_review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
              minima reiciendis. Numquam veniam repudiandae itaque iusto nobis exercitationem animi sit doloribus 
              aliquam tempora quos non delectus minus expedita eius sunt nisi quibusdam,
              aspernatur molestias officia. Magnam dicta voluptatem distinctio totam?</small>
-          </div>
         </article>
         <article className='testimonial'>
           <div className='client_avater'>
             <img src={avater2} alt="Avater one" />
-            <h5 className='client_name'>Afzal Hossain</h5>
-            <small className='client_review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+          </div>
+          <h5 className='client_name'>Afzal Hossain</h5>
+          <small className='client_review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
              minima reiciendis. Numquam veniam repudiandae itaque iusto nobis exercitationem animi sit doloribus 
              aliquam tempora quos non delectus minus expedita eius sunt nisi quibusdam,
              aspernatur molestias officia. Magnam dicta voluptatem distinctio totam?</small>
-          </div>
         </article>
         <article className='testimonial'>
           <div className='client_avater'>
             <img src={avater3} alt="Avater one" />
-            <h5 className='client_name'>Afzal Hossain</h5>
-            <small className='client_review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+          </div>
+          <h5 className='client_name'>Afzal Hossain</h5>
+          <small className='client_review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
              minima reiciendis. Numquam veniam repudiandae itaque iusto nobis exercitationem animi sit doloribus 
              aliquam tempora quos non delectus minus expedita eius sunt nisi quibusdam,
              aspernatur molestias officia. Magnam dicta voluptatem distinctio totam?</small>
-          </div>
         </article>
         <article className='testimonial'>
           <div className='client_avater'>
-            <img src={avater4} alt="Avater one" />
-            <h5 className='client_name'>Afzal Hossain</h5>
-            <small className='client_review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            <img src={avater3} alt="Avater one" />
+          </div>
+          <h5 className='client_name'>Afzal Hossain</h5>
+          <small className='client_review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
              minima reiciendis. Numquam veniam repudiandae itaque iusto nobis exercitationem animi sit doloribus 
              aliquam tempora quos non delectus minus expedita eius sunt nisi quibusdam,
              aspernatur molestias officia. Magnam dicta voluptatem distinctio totam?</small>
-             
-          </div>
         </article>
       </div>
     </section>
