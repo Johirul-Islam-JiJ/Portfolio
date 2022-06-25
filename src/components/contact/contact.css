@@ -1,0 +1,50 @@
+.container.contact_container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact_option {
+    background: linear-gradient(transparent,black,transparent);
+    padding: 2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact_option:hover {
+    background: transparent;
+    border-color: rgb(255, 1, 1);
+}
+
+.contact_option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.contact_option a {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+
+}
+
+/* ==================== Form =================== */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    background: black;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: wheat;
+
+}

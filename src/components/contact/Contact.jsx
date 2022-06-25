@@ -14,21 +14,21 @@ const contact = () => {
       <div className='container contact_container'>
         <div className='contact_option'>
           <article className='contact_option'>
-            <FiMail/>
+            <FiMail className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>johirul35-257@diu.edu.bd</h5>
             <a href="mailto:johirul35-257@diu.edu.bd" target="_blank">Send a message</a>
 
           </article>
           <article className='contact_option'>
-            <RiMessengerLine/>
+            <RiMessengerLine className='contact_option-icon'/>
             <h4>Messenger</h4>
             <h5>Johirul Islam</h5>
             <a href="https://m.me/johirulislam.joy.3" target="_blank">Send a message</a>
 
           </article>
           <article className='contact_option'>
-            <FaWhatsapp/>
+            <FaWhatsapp className='contact_option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+8801971478496</h5>
             <a href="https://api.whatsapp.com/send?phone+8801971478496" target="_blank">Send a message</a>
@@ -43,7 +43,7 @@ const contact = () => {
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="Message"  rows="7" required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
-          
+
         </form>
 
       </div>
