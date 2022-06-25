@@ -10,6 +10,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    
 }
 
 .portfolio_item :hover {
@@ -26,13 +27,13 @@
 }
 
 .portfolio_item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 0rem;
 }
 
 .portfolio_item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: auto;
 
 }
 

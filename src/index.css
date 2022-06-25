@@ -58,7 +58,8 @@ h5{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
+    text-align: center;
 }
 
 section{
@@ -68,12 +69,16 @@ section{
 
 section >h2, section > h5 {
     text-align: center;
-    color: var(--color-light); 
+    color: var(--color-light);
+    font-size: 2rem; 
+    margin-top: auto;
 }
 
 section > h2 {
     color: var(--color-primary-variant);
+    margin-top: auto;
     margin-bottom: 3rem;
+    font-size: 4rem; 
 }
 
 .text-light {
