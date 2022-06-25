@@ -7,10 +7,10 @@
 
 .contact_option {
     background: linear-gradient(transparent,black,transparent);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 1px solid red;
     transition: var(--transition);
 }
 
@@ -43,8 +43,26 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 1.5rem;
     background: black;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid red;
     resize: none;
     color: wheat;
 
+}
+
+
+/* ========== Media Queries (Medium Devices) =============*/
+@media screen and (max-width:1024px) {
+    .container.contact_container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+}
+
+
+/* ========== Media Queries (Small Devices) =============*/
+@media screen and (max-width:600px) {
+    .container.contact_container {
+        width: var(--container-width-sm);
+    }
 }
