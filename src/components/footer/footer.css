@@ -56,3 +56,26 @@ footer a {
     color: red;
     font-size: 1.5rem;
 }
+
+
+/* ========== Media Queries (Medium Devices) =============*/
+@media screen and (max-width:1024px) {
+
+    
+
+}
+
+
+/* ========== Media Queries (Small Devices) =============*/
+@media screen and (max-width:600px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer_socials {
+        margin-bottom: 2.6rem;
+    }
+
+
+}
