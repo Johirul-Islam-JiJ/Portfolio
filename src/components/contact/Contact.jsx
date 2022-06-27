@@ -7,21 +7,19 @@ import {useState as Usestate,useRef as UseRef} from 'react'
 import emailjs from 'emailjs-com'
 
 
-
-
 const Contact = () => {
   const form = UseRef()
 
     const sendEmail = (e) => {
     e.preventDefault();
+    
 
     emailjs.sendForm('service_q5ljgmh', 'template_fq45tqh', form.current, 'bNfCn-pUAfYyHeHwQ')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    e.target.reset();
+    
+     
   };
+ 
 
   
   return (
@@ -61,7 +59,6 @@ const Contact = () => {
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="Message"  rows="7" required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
-
         </form>
 
       </div>
