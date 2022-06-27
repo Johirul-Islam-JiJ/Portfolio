@@ -103,6 +103,7 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-primary-variant);
     transition: var(--transition);
+    
 }
 
 .btn:hover {
