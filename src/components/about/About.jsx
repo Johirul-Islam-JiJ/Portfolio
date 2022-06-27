@@ -6,7 +6,7 @@ import {FaProjectDiagram} from 'react-icons/fa'
 import {BsFillPeopleFill} from 'react-icons/bs'
 
 
-const about = () => {
+const About = () => {
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -66,4 +66,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

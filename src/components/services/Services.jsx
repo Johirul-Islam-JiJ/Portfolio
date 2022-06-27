@@ -4,7 +4,7 @@ import {IoMdCheckmarkCircle} from 'react-icons/io'
 
 
 
-const services = () => {
+const Services = () => {
   return (
     <section id='services'>
 
@@ -131,4 +131,4 @@ const services = () => {
   )
 }
 
-export default services
+export default Services

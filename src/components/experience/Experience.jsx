@@ -2,7 +2,7 @@ import React from 'react'
 import './experience.css'
 import {RiCheckboxMultipleFill} from 'react-icons/ri'
 
-const experience = () => {
+const Experience = () => {
   return (
     <section id='experience'>
 
@@ -133,4 +133,4 @@ const experience = () => {
   )
 }
 
-export default experience
+export default Experience

@@ -7,7 +7,7 @@ import IMG4 from '../../assets/portfolio1.png'
 import IMG5 from '../../assets/portfolio1.png'
 import IMG6 from '../../assets/portfolio1.png'
 
-const portfolio = () => {
+const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -85,4 +85,4 @@ const portfolio = () => {
   )
 }
 
-export default portfolio
+export default Portfolio

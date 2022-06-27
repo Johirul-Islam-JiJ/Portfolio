@@ -41,7 +41,7 @@ const data = [
 ]
 
 
-const testimonials = () => {
+const Testimonials = () => {
   return (
     <section id='testimonials'>
       <h5>Review From Clients</h5>
@@ -70,4 +70,4 @@ const testimonials = () => {
   )
 }
 
-export default testimonials
+export default Testimonials
